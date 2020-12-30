@@ -1,0 +1,164 @@
+body{
+background-color: #565598;
+font-family: Poppins, Sans-serif;
+margin: 5px;
+box-sizing:border-box;
+}
+h1{
+    color: #FFFFFF;
+    text-align: center;
+}
+p{
+    color: #FFFFFF;
+    text-align: center;
+}
+form{
+width: 50%;
+background-color: #2C2C4E;
+color: white;
+padding: 20px;
+display: block;
+box-sizing:border-box;
+margin: auto;
+}
+#name-label{
+font-family: Arial;
+padding: 20px;
+font-size: 20px;
+box-sizing:border-box;
+}
+#name{
+width: 95%;
+border-radius: 10px;
+border-color: blue;
+height: 35px;
+margin: 15px;
+font-size: 15px;
+text-indent: 10px;
+box-sizing:border-box;
+}
+#email-label{
+font-family: Arial;
+padding: 20px;
+font-size: 20px;
+box-sizing:border-box;
+}
+#email{
+width: 95%;
+border-radius: 10px;
+border-color: blue;
+height: 35px;
+margin: 15px;
+font-size: 15px;
+text-indent: 10px;
+box-sizing:border-box;
+}
+#number-label{
+font-family: Arial;
+padding: 20px;
+font-size: 20px;
+box-sizing:border-box;
+}
+#number{
+width: 95%;
+border-radius: 10px;
+border-color: blue;
+height: 35px;
+margin: 15px;
+font-size: 15px;
+text-indent: 10px;
+box-sizing:border-box;
+}
+#multichoice1{
+font-family: Arial;
+padding: 20px;
+font-size: 20px;
+box-sizing:border-box;
+}
+#dropdown{
+width: 95%;
+border-radius: 10px;
+height: 35px;
+margin: 15px;
+font-size: 15px;
+text-indent: 10px;
+box-sizing:border-box;
+}
+#multichoice2{
+font-family: Arial;
+padding: 20px;
+font-size: 20px;
+box-sizing:border-box;
+}
+#radio1{
+font-family: Arial;
+padding: 10px;
+font-size: 20px;
+box-sizing:border-box;
+}
+input[type = "radio"]{
+height: 20px;
+width: 20px;
+margin-left: 20px;
+box-sizing:border-box;
+}
+#multichoice3{
+font-family: Arial;
+padding: 20px;
+font-size: 20px;
+box-sizing:border-box;
+}
+#checkbox{
+font-family: Arial;
+padding: 20px;
+font-size: 20px;
+box-sizing:border-box;
+}
+input[type = "checkbox"]{
+height: 20px;
+width: 20px;
+margin-left: 10px;
+box-sizing:border-box;
+}
+.checkbox{
+font-family: Arial;
+padding: 7px;
+font-size: 20px;
+box-sizing:border-box;
+}
+#comments{
+font-family: Arial;
+padding: 20px;
+font-size: 20px;
+box-sizing:border-box;
+}
+textarea{
+width: 95%;
+height: 100px;
+margin: 15px;
+font-size: 15px;
+text-indent: 10px;
+font-family: sans-serif;
+box-sizing:border-box;
+}
+#submit{
+background-color: #37AF65;
+color: white;
+width: 95%;
+margin: 15px;
+font-size: 15px;
+height: 40px;
+text-align: center;
+border-color: #37AF65;
+box-sizing:border-box;
+}
+@media only screen and (max-width:768px ) and (min-width: 400px){
+   form{
+       width: 80%;
+   }
+}
+@media only screen and (max-width: 399px){
+    form{
+        width: 90%;
+    }
+}
